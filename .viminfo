@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1686871670,,"wq"
+|2,0,1686871919,,"wq"
 :q
 |2,0,1686762514,,"q"
 :qw
@@ -48,44 +48,66 @@
 |3,0,5,1,1,0,1685579202,""
 
 # File marks:
-'0  2  12  ~/2-assembler
-|4,48,2,12,1686871670,"~/2-assembler"
-'1  1  23  ~/2-assembler
-|4,49,1,23,1686871361,"~/2-assembler"
-'2  2  12  ~/2-assembler
-|4,50,2,12,1686871361,"~/2-assembler"
-'3  1  23  ~/2-assembler
-|4,51,1,23,1686871201,"~/2-assembler"
+'0  2  12  ~/1-compiler
+|4,48,2,12,1686871919,"~/1-compiler"
+'1  2  12  ~/2-assembler
+|4,49,2,12,1686871670,"~/2-assembler"
+'2  1  23  ~/2-assembler
+|4,50,1,23,1686871361,"~/2-assembler"
+'3  2  12  ~/2-assembler
+|4,51,2,12,1686871361,"~/2-assembler"
 '4  1  23  ~/2-assembler
 |4,52,1,23,1686871201,"~/2-assembler"
 '5  1  23  ~/2-assembler
 |4,53,1,23,1686871201,"~/2-assembler"
-'6  2  12  ~/2-assembler
-|4,54,2,12,1686871201,"~/2-assembler"
-'7  1  23  ~/2-assembler
-|4,55,1,23,1686870969,"~/2-assembler"
+'6  1  23  ~/2-assembler
+|4,54,1,23,1686871201,"~/2-assembler"
+'7  2  12  ~/2-assembler
+|4,55,2,12,1686871201,"~/2-assembler"
 '8  1  23  ~/2-assembler
 |4,56,1,23,1686870969,"~/2-assembler"
 '9  1  23  ~/2-assembler
 |4,57,1,23,1686870969,"~/2-assembler"
 
 # Jumplist (newest first):
+-'  2  12  ~/1-compiler
+|4,39,2,12,1686871919,"~/1-compiler"
+-'  1  23  ~/1-compiler
+|4,39,1,23,1686871859,"~/1-compiler"
+-'  2  12  ~/2-assembler
+|4,39,2,12,1686871670,"~/2-assembler"
 -'  2  12  ~/2-assembler
 |4,39,2,12,1686871670,"~/2-assembler"
 -'  1  23  ~/2-assembler
 |4,39,1,23,1686871597,"~/2-assembler"
+-'  1  23  ~/2-assembler
+|4,39,1,23,1686871597,"~/2-assembler"
+-'  2  12  ~/2-assembler
+|4,39,2,12,1686871361,"~/2-assembler"
 -'  2  12  ~/2-assembler
 |4,39,2,12,1686871361,"~/2-assembler"
 -'  1  23  ~/2-assembler
 |4,39,1,23,1686871314,"~/2-assembler"
+-'  1  23  ~/2-assembler
+|4,39,1,23,1686871314,"~/2-assembler"
+-'  2  12  ~/2-assembler
+|4,39,2,12,1686871201,"~/2-assembler"
 -'  2  12  ~/2-assembler
 |4,39,2,12,1686871201,"~/2-assembler"
 -'  1  23  ~/2-assembler
 |4,39,1,23,1686871145,"~/2-assembler"
+-'  1  23  ~/2-assembler
+|4,39,1,23,1686871145,"~/2-assembler"
+-'  2  12  ~/2-assembler
+|4,39,2,12,1686870969,"~/2-assembler"
 -'  2  12  ~/2-assembler
 |4,39,2,12,1686870969,"~/2-assembler"
 -'  1  10  ~/2-assembler
 |4,39,1,10,1686870918,"~/2-assembler"
+-'  1  10  ~/2-assembler
+|4,39,1,10,1686870918,"~/2-assembler"
+-'  1  10  ~/2-assembler
+|4,39,1,10,1686870913,"~/2-assembler"
 -'  1  10  ~/2-assembler
 |4,39,1,10,1686870913,"~/2-assembler"
 -'  2  12  ~/1-compiler
@@ -248,30 +270,19 @@
 |4,39,2,12,1686870254,"~/1-compiler"
 -'  2  12  ~/1-compiler
 |4,39,2,12,1686870254,"~/1-compiler"
--'  2  12  ~/1-compiler
-|4,39,2,12,1686870254,"~/1-compiler"
--'  2  12  ~/1-compiler
-|4,39,2,12,1686870254,"~/1-compiler"
--'  2  12  ~/1-compiler
-|4,39,2,12,1686870254,"~/1-compiler"
--'  2  12  ~/1-compiler
-|4,39,2,12,1686870254,"~/1-compiler"
--'  2  12  ~/1-compiler
-|4,39,2,12,1686870254,"~/1-compiler"
--'  2  12  ~/1-compiler
-|4,39,2,12,1686870254,"~/1-compiler"
--'  2  12  ~/1-compiler
-|4,39,2,12,1686870254,"~/1-compiler"
--'  2  12  ~/1-compiler
-|4,39,2,12,1686870254,"~/1-compiler"
--'  2  12  ~/1-compiler
-|4,39,2,12,1686870254,"~/1-compiler"
--'  2  12  ~/1-compiler
-|4,39,2,12,1686870254,"~/1-compiler"
--'  2  12  ~/1-compiler
-|4,39,2,12,1686870254,"~/1-compiler"
 
 # History of marks within files (newest to oldest):
+
+> ~/1-compiler
+	*	1686871914	0
+	"	2	12
+	^	2	13
+	.	2	12
+	+	1	12
+	+	1	11
+	+	1	0
+	+	1	11
+	+	2	12
 
 > ~/2-assembler
 	*	1686871666	0
@@ -279,17 +290,6 @@
 	^	2	13
 	.	2	12
 	+	1	11
-	+	2	12
-
-> ~/1-compiler
-	*	1686870564	0
-	"	2	12
-	^	2	13
-	.	2	12
-	+	1	12
-	+	1	11
-	+	2	0
-	+	1	0
 	+	2	12
 
 > /1-compiler
